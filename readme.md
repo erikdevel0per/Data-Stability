@@ -1,0 +1,1 @@
+This code performs the simulation as requested, ensuring a high number of lines by including detailed explanations and checks. It measures the total time and number of beats required for data values ​​to stabilize.
