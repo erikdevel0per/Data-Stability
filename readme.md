@@ -69,3 +69,5 @@ Verifica se o arquivo está sendo executado como o script principal e, caso posi
 - O tempo entre batidas e o número de batidas para estabilidade são ajustáveis.
 
 Esse código é útil para simular experimentos probabilísticos e também serve para estudar a estabilidade em processos dinâmicos de experimentos controlados com variáveis aleatórias.
+
+## **Muito Obrigado pela sua atenção!**
