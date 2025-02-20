@@ -8,7 +8,7 @@ Este código realiza a simulação conforme solicitado, garantindo um elevado n�
 - **Importação de bibliotecas:** `random:` Usado para gerar números aleatórios. No código, é utilizado para simular o lançamento de um dado (gerando números inteiros de 1 a 6).
 - `time:` Usado para pausar a execução do programa por um tempo específico. No código, é utilizado para simular o tempo entre as batidas dos dados e calcular o tempo total do experimento.
 
-# Funções Utilizadas
+## Funções Utilizadas
 Função `lancar_dado()`:
 
 - Objetivo: Simula o lançamento de um dado de 6 faces. Retorna um valor aleatório entre 1 e 6.
@@ -55,13 +55,13 @@ if __name__ == "__main__":
 ```
 Verifica se o arquivo está sendo executado como o script principal e, caso positivo, chama a função `main()`.
 
-# Principais Tipos de Dados
+## Principais Tipos de Dados
 
 - Inteiros `(int)`: O código usa inteiros para representar os valores lançados pelos dados (números entre 1 e 6).
 - Flutuantes `(float)`: O tempo total do experimento é armazenado como um número flutuante, representando o tempo decorrido.
 - Strings `(str)`: Utilizado nas mensagens de print para mostrar os resultados.
 
-# Comportamento do Código
+## Comportamento do Código
 
 - O experimento simula lançamentos de dois dados e os compara após cada "batida" (tapada). O programa continua até que os dados se estabilizem, ou seja, até que, por um número consecutivo de batidas, os valores dos dois dados não mudem.
 - A função `lancar_dado()` simula um lançamento aleatório do dado.
