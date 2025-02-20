@@ -21,7 +21,7 @@ return random.randint(1, 6)
 A função `random.randint(1, 6)` gera um número inteiro aleatório no intervalo de 1 a 6, simulando o lançamento de um dado de seis faces.
 
 Função `experimento(tempo_entre_batidas=1, limite_estabilidade=5)`:
-- Objetivo: Simula o experimento onde dois dados são "agitados" por tapas e verifica quando eles atingem estabilidade (quando o valor dos dados não muda por um número consecutivo de batidas).
+- **Objetivo**: Simula o experimento onde dois dados são "agitados" por tapas e verifica quando eles atingem estabilidade (quando o valor dos dados não muda por um número consecutivo de batidas).
 
 Parâmetros:
 - `tempo_entre_batidas`: Tempo, em segundos, entre cada batida. O padrão é 1 segundo.
@@ -38,7 +38,7 @@ Estrutura de controle:
   
 Função `main()`:
 
-Objetivo: Configura os parâmetros padrão (tempo entre as batidas e limite de estabilidade) e chama a função `experimento()` para executar a simulação.
+**Objetivo**: Configura os parâmetros padrão (tempo entre as batidas e limite de estabilidade) e chama a função `experimento()` para executar a simulação.
 
 ```properties
 tempo_entre_batidas = 1  # Tempo de 1 segundo entre batidas
